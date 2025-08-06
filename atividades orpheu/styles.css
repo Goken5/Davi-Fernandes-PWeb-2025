@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(39, 39, 39);
+    margin: 0;
+}
+#cabecalho{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100vw;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.musicas{
+    margin-left: 20px;
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+}
+p{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+}
+#introducao{
+    margin-left: 15px;
+
+}
+#rodape{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 100vw;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+}
+#todosAlbuns{
+    display: flex;
+}
+.albuns{
+    margin-left: 15px;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 33vw;
+    display: flex;
+    margin-top: 40px;
+}
+.albuns img{
+    width: 100%;
+}
+a{
+    color: white;
+}
+h1{
+    color: white;
+}
