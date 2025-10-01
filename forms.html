@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        label{
+            display: block;
+        }
+        input{
+            display: block;
+            
+        }
+        #Enviar:hover{
+            scale: 1.05;
+        }
+        #Enviar{
+            margin-top: 5px;
+            transition: all 300ms;
+        }
+        #Formulario{
+            display: flex;
+            width: 33vw;
+            background-color:beige;
+            padding: 5px;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="Formulario">
+        <form action="#" method="get">
+            <h1>Formulário</h1>
+            <label for="nome">Nome: </label>
+            <input type="text" name="Nome" id="Nome">
+            <label for="endereco">Endereço:</label>
+            <input type="text" name="endereco" id="Endereco">
+            <label for="telefone">Telefone:</label>
+            <input type="number" name="telefone" id="Telefone">
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="Idade">
+            <input type="submit" name="enviar" id="Enviar">
+        </form>
+    </div>
+    
+</body>
+</html>
