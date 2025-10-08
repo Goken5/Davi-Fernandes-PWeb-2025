@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label, input {
+            display: block;
+        }
+        fieldset {
+            margin: 10px;
+        }
+        #inline input, label {
+            display: inline-flex;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <h1>Formulários 2</h1>
+
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="inputNome" placeholder="Digite seu nome" maxlength="30">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="inputEmail" placeholder="Digite seu email">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="inputSenha" placeholder="Digite sua senha">
+            <label for="idade">Idade</label>
+            <input type="number" name="idade" id="inputIdade" placeholder="Digite sua idade" min="18">
+        </fieldset>
+        <fieldset id="inline">
+            <legend>O que tenho para estudar</legend>
+            <input type="checkbox" name="mesa">
+            <label for="estudar">Mesa em casa</label> <br>
+            <input type="checkbox" name="celular">
+            <label for="celular">Celular</label> <br>
+            <input type="checkbox" name="notebook">
+            <label for="notebook">Notebook</label> <br>
+            <input type="checkbox" name="pc">
+            <label for="pc">Computador</label> <br>
+            <input type="checkbox" name="tablet">
+            <label for="tablet">Tablet</label> <br>
+            <input type="checkbox" name="kindle">
+            <label for="kindle">Kindle</label>
+        </fieldset>
+        <fieldset id="inline">
+            <legend>Linguagem Predileta</legend>
+            <input type="radio" name="html">
+            <label for="html">HTML</label> <br>
+            <input type="radio" name="css">
+            <label for="css">CSS</label> <br>
+            <input type="radio" name="js">
+            <label for="js">JavaScript</label> <br>
+            <input type="radio" name="python">
+            <label for="python">Python</label> <br>
+            <input type="radio" name="java">
+            <label for="java">Java</label> <br>
+            <input type="radio" name="C++">
+            <label for="C++">C++</label>
+        </fieldset>
+        <fieldset>
+            <legend>Como venho para o IFF</legend>
+            <select name="opcoes">
+                <option value="pe">A Pé</option>
+                <option value="bike">Bicicleta</option>
+                <option value="onibus">Ônibus</option>
+                <option value="carro">Carro</option>
+                <option value="moto">Moto</option>
+                <option value="carregado">Carregado</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+</html>
